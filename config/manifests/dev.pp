@@ -7,6 +7,8 @@ node default {
     logoutput => on_failure,
   }
 
+  package { ['augeas-tools', 'libaugeas-dev', 'libaugeas-ruby']:   ensure => installed }
+
   $php_version = '5.4.*'
 
   include php
