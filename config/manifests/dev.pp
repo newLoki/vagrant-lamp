@@ -43,4 +43,6 @@ node default {
     docroot         => '/var/www/app/',
     serveradmin     => 'webmaster@example.com',
   }
+
+  include lighttpd
 }
