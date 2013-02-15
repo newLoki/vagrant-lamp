@@ -16,3 +16,6 @@
 [submodule "config/modules/stdlib"]
 	path = config/modules/stdlib
 	url = git://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "lighttpd"]
+	path = lighttpd
+	url = ./config/modules/lighttpd/
